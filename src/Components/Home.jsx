@@ -3,6 +3,9 @@ import Navigation from './Navigation'
 import Mission from './RoutingComponent/Mission';
 import Vision from './RoutingComponent/Vision'
 import Values from './RoutingComponent/Values';
+import Footer from "./Footer";
+import {Data} from "./Data"
+import Projects from './Projects';
 const Home = () => {
     const[data1,setData1]= useState(true);
     const[data2,setData2]= useState(false);
@@ -38,7 +41,30 @@ const Home = () => {
                 <div onClick={handleController3}><span >Values</span></div>
                  
                  
-            </div>               
+            </div>   
+            <section className="process">
+                <h3>WORK CYCLE PHILOSOPHY</h3>
+                <div>
+                {
+                        Data.map((el,id)=>{
+                            return(
+                                <div className="carriage">
+                                    <div className="icon">
+                                        <img src={el.img} alt="image_icon" />
+                                    </div>
+                                    <div className="description">
+                                        <h4>{el.title}</h4>
+                                        <p>{el.text}</p>
+                                    </div>
+                                </div>
+                            )
+                        })
+                    }
+                </div>
+                       
+            </section>      
+            <Projects />
+            <Footer />      
         </div>
     )
 }

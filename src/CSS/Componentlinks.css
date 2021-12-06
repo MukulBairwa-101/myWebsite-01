@@ -46,12 +46,14 @@
 }
 .image_holder img{
     width:100%;
+
 }
 .text_details{
     width: 30%;
     padding: .5rem;
     margin: 1rem 1rem;
     border-top: .3rem solid rgb(206, 176, 122);
+    color: rgb(94, 94, 94);
 }
 .text_details span{
     color: royalblue;
