@@ -17,8 +17,8 @@ const Navigation = () => {
                 <li className="list_item">Home</li>
                 <li className="list_item">Projects</li>
                 <li className="list_item">contact us</li>
-                <li className="list_item" onClick={handleDropdown}>more
-                <ul className= {drop?"":"links_v"} >
+                <li className="list_item" onClick={handleDropdown} >more
+                <ul className= {drop?"links_v_drop":"links_v"} >
                      <li className="dropdown_list_item">NRI</li>
                      <li className="dropdown_list_item">FACILITY MANAGEMENT</li>
                      <li className="dropdown_list_item">RESALE AND RENTEL</li>
