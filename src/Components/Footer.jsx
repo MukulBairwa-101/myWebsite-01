@@ -2,14 +2,17 @@ import React from 'react'
 import { socialLinks ,quickLinks,cities} from './Data';
 const Footer = () => {
     return (
-        <div>
+        <div className="footer_wrapper">
             <div className="contact_us">
                 <h4>MY WEBSITE</h4>
                 <p>6th Floor, Apex mall Lalkothi,
                 Tonk Road, Jaipur Rajasthan India.</p>
+                <div>
                 <span>+91-141-4311100 </span>|
                 <span>+91-141-4311111</span>
-                <h6>info@manglamgroup.com</h6>
+                </div>
+
+                <h5>info@manglamgroup.com</h5>
                 <div className="social_links">
                    {
                        socialLinks.map((el)=>{
@@ -48,6 +51,7 @@ const Footer = () => {
                     )
                 })}
             </div>
+            
         </div>
     )
 }

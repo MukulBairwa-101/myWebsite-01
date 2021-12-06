@@ -4,6 +4,7 @@
     padding: 0;
     
 }
+
 /* section  */
 .process{
     margin-top: 20rem;
@@ -46,11 +47,96 @@
     background-color: rgb(26, 26, 26);
     padding: 1.5rem;
 }
+.project_section h3{
+    font-size: 1.6rem;
+}
 .project_section div:first-of-type{
     display: flex;
     justify-content: space-between;
     color: white;
+}
+.works{
+    display: flex;
+    margin: 1rem;
+    cursor: pointer;
+}
+.work_item{
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+.work_item img{
+    width:100%;
+}
+.work_item img:hover{
+    transform: scale(.9,.9);
+    transition: .1s ;
+}
+.work_item a,.project_section div:first-of-type a{
+    color: rgb(236, 206, 148);
+    text-decoration: none;
+    margin-top: .5rem;
+}
+.work_item a:hover,.project_section div:first-of-type a:hover{
+    color:white;
+}
+/* section  */
+
+
+/* wrapper */
+
+.footer_wrapper{
+    background-color: rgb(15, 15, 15);
+    color:white;
+    display: flex;
+    padding: 5rem ;
+    justify-content: space-evenly;
+}
+.contact_us {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px;
+    color: rgb(117, 81, 68);
+}
+.contact_us span:hover{
+    color: rgb(236, 206, 148);
+    cursor: pointer;
+}
+.contact_us h4{
+    color:rgb(157, 168, 202);
+    letter-spacing: .1rem;
     font-size: 1.5rem;
 }
+.social_links{
+    display: flex;
+    width:60%;
+    font-size: 1.5rem;
+    justify-content: space-evenly;
 
-/* section  */
+}
+.social_links a{
+    color:#fff;
+    text-decoration: none;
+}
+.social_links a:hover{
+    color:rgb(126, 153, 235) ;
+}
+
+.quickLinks h4, .cities h4{
+    color: rgb(117, 81, 68);
+}
+.quickLinks ul  , .cities ul{
+    list-style: none;
+
+}
+.quickLinks ul li  , .cities ul li{
+    margin:1rem;
+
+}
+.quickLinks ul li:hover {
+    background-color: rgb(170, 48, 3) ;
+    cursor: pointer;
+}
+/* wrapper */
