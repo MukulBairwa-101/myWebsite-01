@@ -6,9 +6,11 @@ const Navigation = () => {
 
     const handleDropdown =()=>{
         setDrop(!drop);
+        setSearchtoggle(false);
     }
     const handleSearchToggle =()=>{
         setSearchtoggle(!searchtoggle);
+        setDrop(false);
     }
     return (
         <div className="navigation_wrapper">
