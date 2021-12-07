@@ -168,6 +168,19 @@
     background-color: rgb(170, 48, 3) ;
     cursor: pointer;
 }
+
+.copyright{
+    background-color: rgb(15, 15, 15);
+    color:gray;
+    font-weight: 600;
+    padding:1rem;
+    border-top: .02rem solid gray;
+}
+.copyright p{
+    color: rgb(236, 125, 85) ;
+    font-size: 1.4rem;
+    margin:1rem .2rem ;
+}
 /* wrapper */
 
 
@@ -195,8 +208,8 @@
 
 }
 .carriage img{
-    /* width:30px;
-    height: 30px; */
+    width:30px;
+    height: 30px;
     
 }
 .description{
