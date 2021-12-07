@@ -44,7 +44,7 @@ const Home = () => {
             </div>   
             <section className="process">
                 <h3>WORK CYCLE PHILOSOPHY</h3>
-                <div>
+                <div className="process_d">
                 {
                         Data.map((el,id)=>{
                             return(

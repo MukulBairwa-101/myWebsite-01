@@ -39,6 +39,7 @@
     width: 100%;
     display: flex;
     height: 650px;
+    margin-top: 1rem;
     
 }
 .image_holder{
@@ -61,3 +62,39 @@
 }
 
 /* Rendered components */
+
+
+/* Reponsiveness */
+
+@media screen and (max-width:200px){
+    .component_links{
+        display: flex;
+        flex-direction: column;            
+        margin-top: 20rem;
+    }   
+    .component_links div{
+        font-size: .8rem;
+        padding: 1rem;
+        width:100%;
+        margin:.5rem;  
+      
+        
+    }
+    .rendered_component{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .image_holder{
+        width:100%;
+    }
+    .image_holder img{
+        width:100%;
+    
+    }
+    .text_details{
+        width: 100%;
+        margin:0;
+    }
+}

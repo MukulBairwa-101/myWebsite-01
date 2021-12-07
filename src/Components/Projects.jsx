@@ -3,7 +3,7 @@ import { projects } from './Data';
 const Projects = () => {
     return (
         <div className="project_section">
-            <div>
+            <div className="title">
                 <h3>Featured Projects</h3>
                 <a href="#">View all our works  </a>
             </div>
