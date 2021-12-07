@@ -6,9 +6,28 @@
     padding: 1rem;
     max-width: 100%;
     height: 90vh;
-    background-image: url("https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    /* background-image: url("https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"); */
     background-repeat: no-repeat;
     background-size: cover;
+    animation: changeBg 13s infinite ;
+
+}
+@keyframes changeBg {
+    0%{
+        background-image: url("https://www.manglamgroup.com/wp-content/uploads/2015/11/S11.jpg");        
+    }
+    25%{
+        background-image: url("https://www.manglamgroup.com/wp-content/uploads/2015/11/S13.jpg");
+    }
+    50%{
+        background-image: url("https://www.manglamgroup.com/wp-content/uploads/2015/11/S31.jpg");
+    }
+    75%{
+        background-image: url("https://www.manglamgroup.com/wp-content/uploads/2015/11/S41.jpg");
+    }
+    100%{
+        background-image: url("https://www.manglamgroup.com/wp-content/uploads/2015/11/S11.jpg");  
+    }
 }
 
 .links_h{
@@ -38,7 +57,7 @@
 
 /*  styling*/
 .navigation_wrapper h4{
-    color:rgb(157, 168, 202);
+    color:rgb(108, 131, 199);
     letter-spacing: .1rem;
     font-size: 1.5rem;
 }
@@ -47,13 +66,13 @@
     padding:1rem;
     cursor: pointer;
     text-transform:uppercase;
-    color:rgb(206, 176, 122);
+    color:rgb(219, 90, 3);
 }
 .links_h li{
     margin-left: 1rem;
 }
 .links_h li:hover{
-   border-bottom: .1rem solid #fff;
+   border-bottom: .1rem solid rgb(70, 70, 70);
    transition: .2s;
 }
 .links_v_drop li{
@@ -68,6 +87,9 @@
 .links_v_drop li:hover{
     background-color: rgb(231, 231, 231);
 }
+.search_wrapper {
+    color:black;
+}
 .search_wrapper input{
     margin-top: .2rem;
 }
@@ -78,4 +100,8 @@
     border-radius: .5rem;
 }
 
+.active{
+    color:rgb(36, 36, 36);
+
+}
 /*  styling*/
